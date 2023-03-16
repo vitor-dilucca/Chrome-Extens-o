@@ -4,6 +4,7 @@ body{
   font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
   color: aliceblue;
   background-color: #20243a;
+  min-width: 400px;
 }
 
 input{
