@@ -29,13 +29,44 @@ input{
   font-weight: bold;
   text-shadow: 0 0 3px rgb(44, 44, 44), 0 0 5px rgb(44, 44, 44);
   border: none;
-  padding: 5px 10px 5px 10px;
+  /* padding: 5px 10px 5px 10px; */
   margin-top: 5px;
   border-radius: 5px;
 }
+#input-btn:hover{
+  background-image: radial-gradient(#54813a, rgb(2, 104, 2));
+}
+
+#tab-btn{
+  /* background-color: #5f9341; */
+  background-image: radial-gradient(#5f9341, green);
+  color: whitesmoke;
+  font-weight: bold;
+  text-shadow: 0 0 3px rgb(44, 44, 44), 0 0 5px rgb(44, 44, 44);
+  border: none;
+  /* padding: 5px 10px 5px 10px; */
+  margin-top: 5px;
+  border-radius: 5px;
+}
+#tab-btn:hover{
+  background-image: radial-gradient(#54813a, rgb(2, 104, 2));
+}
+
+#clear-btn{
+  background-image: radial-gradient(rgb(161, 64, 64) ,rgb(177, 14, 14));
+  text-shadow: 0 0 3px rgb(44, 44, 44), 0 0 5px rgb(44, 44, 44);
+  color: #ffffff;
+  font-weight:bold;
+  border: #5f9341;
+  /* padding: 5px 10px 5px 10px; */
+  margin-top: 5px;
+  border-radius: 5px;
+}
+#clear-btn:hover{
+  background-image: radial-gradient(rgb(151, 61, 61) ,rgb(150, 12, 12));
+}
 
 button{
-  background-color: #5f9341;
   color: white;
   padding: 10px 20px;
   border: none;
