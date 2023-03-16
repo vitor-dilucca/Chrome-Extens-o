@@ -1,18 +1,36 @@
 body{
-  margin:0;
+  margin: 0;
   padding: 10px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+  color: aliceblue;
   background-color: #20243a;
-  color: white;
-  font-weight:200;
 }
 
 input{
   width: 100%;
-  padding: 10px;
+  padding: 5px;
   box-sizing: border-box;
   border: 1px solid #5f9341;
-  margin-bottom: 4px;
+  border-radius: 2;
+}
+
+#input-el{
+  background-color: rgb(215, 233, 250);
+}
+#input-el:hover{
+  background-color: rgb(205, 227, 248);
+}
+
+#input-btn{
+  /* background-color: #5f9341; */
+  background-image: radial-gradient(#5f9341, green);
+  color: whitesmoke;
+  font-weight: bold;
+  text-shadow: 0 0 3px rgb(44, 44, 44), 0 0 5px rgb(44, 44, 44);
+  border: none;
+  padding: 5px 10px 5px 10px;
+  margin-top: 5px;
+  border-radius: 5px;
 }
 
 button{
@@ -22,17 +40,22 @@ button{
   border: none;
   font-weight: bold;
 }
+
 button:hover{
   cursor: pointer;
 }
 
-#caixa-btn{
-  cursor: pointer;
-  background: lightseagreen;
-  padding: 40px;
-  width: 200px;
-  text-align: center;
-  margin: 20px auto;
-  color: white;
-  font-weight: bold;
+ul{
+  margin-top: 20px;
+  list-style: none;
+  margin-left: 0px;
+  padding-left: 5px;
+}
+
+li{
+  margin-top: 5px;
+}
+
+li a{
+  color: rgb(235, 235, 243);
 }
